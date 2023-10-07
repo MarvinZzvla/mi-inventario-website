@@ -1,0 +1,41 @@
+/* Cambia el color de fondo y el color del texto según tus preferencias */
+.navbar-custom {
+    background-color: #ffffff; /* Color de fondo */
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-nav .nav-link {
+    color: #202020; /* Color del texto */
+  }
+   /* Alinea los elementos del menú a la derecha */
+   .navbar-custom .navbar-nav {
+    margin-left: auto;
+  }
+  /* Aumenta el espacio entre elementos del menú */
+  .navbar-custom .navbar-nav .nav-item {
+    margin-right: 15px; /* Espacio entre elementos */
+  }
+
+  ul {
+    list-style-image: url('task.png'); /* Reemplaza 'imagen-vineta.png' con la ruta de tu imagen */
+    margin-left: 10px; /* Espacio izquierdo para la viñeta */
+  }
+  
+  /* Estilo adicional para los elementos de la lista */
+  li {
+    margin: 5px 0;
+    color: #424242d7;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .card-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover; /* Para ajustar la imagen al tamaño */
+  }
+  .benefits{
+    list-style-image: url('check.png'); /* Reemplaza 'imagen-vineta.png' con la ruta de tu imagen */
+    margin-left: 10px; /* Espacio izquierdo para la viñeta */
+  }

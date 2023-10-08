@@ -39,3 +39,7 @@
     list-style-image: url('check.png'); /* Reemplaza 'imagen-vineta.png' con la ruta de tu imagen */
     margin-left: 10px; /* Espacio izquierdo para la viñeta */
   }
+
+  body {
+    width: 99.2%;
+  }
